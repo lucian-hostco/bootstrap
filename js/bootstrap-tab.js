@@ -126,7 +126,11 @@
   * ============ */
 
   $(document).on('click.tab.data-api', '[data-toggle="tab"], [data-toggle="pill"]', function (e) {
-    e.preventDefault()
+
+    //submit input inside a tab doesnt work
+    //e.preventDefault()
+
+
     $(this).tab('show')
   })
 
